@@ -44,5 +44,5 @@ if st.button("Predict"):
     prediction = model.predict(df)
     if prediction[0] ==1:
       st.error("machine will fail")
-    else
+    else:
       st.success("machine will work")
